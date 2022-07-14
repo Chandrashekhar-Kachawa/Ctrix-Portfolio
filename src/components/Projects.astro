@@ -1,0 +1,42 @@
+---
+
+---
+
+<div class="flex flex-col px-2 md:px-10 lg:px-[18vw]  h-[75vh] md:h-[80vh] gap-8 pt-[10vh] md:pt-[20vh] ">
+    <h2 id="heading" class=" text-slate-50 mb-4 text-3xl md:text-5xl">Some Things i've built!</h2>
+    <section class="md:flex md:flex-row gap-8 relative">
+        <div class="projectPicDiv relative">
+            <!-- <div class="picFilter absolute top-0 left-0 w-full h-full bg-cyan-900 md:bg-cyan-800 bg-opacity-90 md:bg-opacity-40"></div> -->
+            <img src="/assets/projects/project1.png" class="sm:w-[100vw] md:w-[32rem] lg:w-[600px] h-[20rem]" />
+        </div>
+        <div class="second absolute top-0 left-0 md:static flex flex-col items-end md:gap-4 md:pt-2   h-full">
+            <h2 class=" text-cyan-900 md:text-cyan-500 text-xl md:text-3xl">Featured Project</h2>
+            <h2 class=" text-slate-300 text-2xl md:text-3xl">Ctrix Chats</h2>
+            <p class="w-[32rem] md:bg-opacity-80 text-slate-300 text-xl md:text-2xl md:-ml-36 lg:-ml-20 md:p-8 rounded-3xl md:bg-gray-800 z-10">Ctrix Chats is simple chat app hosted on vercel and uses Firebase for backend.</p>
+            <ul class="flex flex-row text-slate-300 gap-6 text-2xl">
+                <li>Reactjs</li>
+                <li>Chakra UI</li>
+                <li>Firebase</li>
+            </ul>
+        </div>
+    </section>
+</div>
+<style lang="scss">
+    .projectPicDiv {
+        &:hover {
+            .picFilter {
+                background-color: transparent;
+            }
+        }
+        .picFilter {
+                transition: all ease 250ms 0s;
+            }
+  @media only screen and (min-width: 355px) { 
+    .second:hover {
+        .picFilter {
+            background-color: transparent;
+        }
+    }
+}
+    }
+</style>

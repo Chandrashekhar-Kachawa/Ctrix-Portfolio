@@ -36,7 +36,7 @@ export const Svg = ({ children, viewBox, className, xmlSpace }: svgProps) => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox={viewBox}
-      className={" fill-white hover:animate-pulse " + className}
+      className={"w-8 h-8 md:w-10 md:h-10 fill-white hover:animate-pulse " + className}
       xmlSpace={xmlSpace}
     >
       {children}

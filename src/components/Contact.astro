@@ -3,14 +3,18 @@ import { AnchorTag } from "./Components";
 import Container from "./Container.astro";
 ---
 
-<Container>
-    <div id="contactme" class="flex flex-col  gap-0 md:gap-4 h-[75vh] md:h-[100vh]">
-        <h2 class="text-cyan-500 text-xl md:text-3xl ">What's Next?</h2>
-        <h2 class="text-slate-50 text-4xl md:text-6xl">Get in touch</h2>
-        <p class="text-slate-300 text-2xl md:text-3xl w-[50vw] md:w-[30vw]">I love connecting with different people so if you want to say hi, I would love to hear about your project and big idea.
+<div id="contactme" class="flex flex-col gap-0 md:gap-4 h-[75vh] md:h-[100vh]">
+    <h2 class="text-cyan-500 text-xl md:text-3xl">What's Next?</h2>
+    <h2 class="text-slate-50 text-4xl md:text-6xl">Get in touch</h2>
+    <p class="text-slate-300 text-2xl md:text-3xl w-[50vw] md:w-[30vw]">
+        I love connecting with different people so if you want to say hi, I
+        would love to hear about your project and big idea.
     </p>
     <div class="flex flex-row items-center justify-center">
-        <AnchorTag className="text-cyan-500 text-3xl border-cyan-500 border rounded-lg p-4 mt-8" href="mailto:kachawachandra@gmail.com" >Say Hello</AnchorTag>
+        <AnchorTag
+            className="text-cyan-500 text-3xl border-cyan-500 border rounded-lg p-4 mt-8"
+            href="mailto:kachawachandra@gmail.com"
+            >Say Hello
+        </AnchorTag>
     </div>
 </div>
-</Container>

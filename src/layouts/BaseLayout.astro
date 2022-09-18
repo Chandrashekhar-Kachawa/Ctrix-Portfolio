@@ -2,21 +2,18 @@
 import BaseHead from "./BaseHead.astro";
 import Container from "../components/Container.astro";
 
-const { title, classNames } = Astro.props
+const { title, classNames } = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <BaseHead title={title} />
-</head>
+  </head>
 
-<body class="bg-gray-900 h-[100vh] ">
+  <body class="bg-gray-900">
     <Container>
-        <slot />
-
+      <slot />
     </Container>
-</body>
-
+  </body>
 </html>

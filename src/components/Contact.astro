@@ -1,11 +1,10 @@
 ---
 import { AnchorTag } from "./Components";
-import Container from "./Container.astro";
 ---
 
 <div id="contactme" class="flex flex-col gap-0 md:gap-4 items-center py-72">
-  <h2 class="text-cyan-500 text-xl md:text-3xl lg:text-5xl">What's Next?</h2>
-  <h2 class="text-slate-50 text-4xl md:text-6xl lg:text-8xl">Get in touch</h2>
+  <h2 class="text-cyan-500 text-xl md:text-3xl lg:text-6xl">What's Next?</h2>
+  <h2 class="text-slate-50 text-4xl md:text-6xl lg:text-7xl">Get in touch</h2>
   <p
     class="text-slate-300 text-center text-2xl md:text-3xl lg:text-4xl w-[50vw] md:w-[30vw]"
   >
@@ -14,9 +13,10 @@ import Container from "./Container.astro";
   </p>
   <div class="flex flex-row items-center justify-center">
     <AnchorTag
-      className="text-cyan-500 text-3xl border-cyan-500 border rounded-lg p-4 mt-8"
+      className="text-cyan-500 text-3xl lg:text-4xl border-cyan-500 border rounded-lg p-4 mt-8"
       href="mailto:kachawachandra@gmail.com"
-      >Say Hello
+    >
+      Say Hello
     </AnchorTag>
   </div>
 </div>
